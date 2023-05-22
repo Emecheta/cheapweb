@@ -1,0 +1,378 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul li{
+    padding-top: 3px;
+}
+
+.navbar{
+    position: sticky;
+    width: 100%;
+    flex-wrap: wrap;
+    height: 80px;
+    z-index: 1;
+    flex-direction: row;
+    display: flex;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 20px;
+    margin-left: 160px;
+}
+.navbar ul li{
+    padding-left: 40px;
+    text-transform: uppercase;
+}
+
+.navitem{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    font-weight: 200;
+}
+
+.logo{
+    height: 50px;
+    margin-right: 30px;
+    padding-left: 15px;
+    padding-top: 16px;
+}
+
+.navitem a{
+    text-decoration: none;
+    margin: 20px;
+    color: black;
+    background-size: 70px;
+}
+
+.navitem a:active{
+    color:white ;
+    background-color: #F4F7F5;
+    background-size: 50px;
+}
+
+
+
+.banner{
+    width: 100%;
+    background-color: #F4F7F5;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 40px;
+    margin-top: 5px;
+    align-content: center;
+    text-align: center;
+    height: 460px;
+    background-image: image();
+
+}
+
+.banner h3{
+    padding-bottom: 0;
+    padding-top: 50px;
+}
+
+.banner p{
+    background-color: #F4F7F5;
+    padding-top: 15px;
+}
+
+.btn{
+    padding: 15px;
+    font-size: 30px;
+}
+
+.btn1{
+    border-radius: 10px 0 0 10px;
+    size: 40px;
+    height: 50px;
+    width: 180px;
+    font-size: 20px;
+    color: white;
+    background-color:rgba(30, 86, 49, 1);
+    border-color:rgba(30, 86, 49, 1);
+}
+
+.btn2{
+    width: 180px;
+    height: 50px;
+    border-radius: 0 10px 10px 0;
+    size: 40px;
+    font-size: 20px;
+    border-color:rgba(30, 86, 49, 1);
+    color:rgba(30, 86, 49, 1);
+    text-size-adjust: 5px;
+    background-color: white;
+}
+
+.explore{
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    align-content: center;
+    text-align: center;
+    /* font-size: medium; */
+    
+}
+
+.explore p{
+    text-align: center;
+    padding-left: 350px;
+    padding-right: 350px;
+    padding-top: 25px;
+}
+
+.pricing{
+    margin-top: 10px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 600px;
+}
+.pricing i{
+    margin-right: 10px;
+    color: rgba(30, 86, 49, 1);
+    
+}
+.pricing div{
+    padding-left: 10px;
+    list-style: none;
+}
+.box1{
+    color: rgba(132, 129, 153, 1);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: auto;
+    padding: 10px;
+    background-color: #F4F7F5;
+    height: 350px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+.box2{
+    color: rgba(132, 129, 153, 1);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: auto;
+    padding: 10px;
+    background-color: #F4F7F5;
+    height: 350px;
+    border-radius: 20px
+}
+.box3{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: auto;
+    padding: 10px;
+    background-color:rgba(30, 86, 49, 1);
+    color: white;
+    height: 350px;
+    margin-left: 20px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0px 42px 34px 0px rgba(30, 86, 49, 0.29);
+    
+}
+.btn4{
+    color: white;
+    background-color:rgba(30, 86, 49, 1) ;
+    border-color: rgba(30, 86, 49, 1);
+    border-radius: 20px;
+    height: 40px;
+    margin-top: 40px;
+}
+.btn6{
+    color: white;
+    background-color:rgba(30, 86, 49, 1) ;
+    border-color: rgba(30, 86, 49, 1);
+    border-radius: 20px;
+    height: 40px;
+    margin-top: 82px;
+}
+.btn5{
+    background-color: white;
+    color:rgba(30, 86, 49, 1) ;
+    border-radius: 20px;
+    border-color: white;
+    height: 40px;
+    margin-top: 30px;
+}
+.btn3{
+    color: rgba(30, 86, 49, 1);
+    border-color: white;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 5px;
+
+    font-weight: lighter;
+    align-self: flex-end;
+    flex-direction: row;
+}
+
+.ideas{
+    color: rgba(30, 86, 49, 1);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+}
+
+.reviews{
+    margin-top:50gpx ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.africaimg{
+    float: left;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.Africa{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+.img1{
+    margin-left: -460px;
+    margin-top: 40px;
+    position: absolute;
+    border-radius: 20px;
+
+}
+.rvw1{
+    width: 40%;
+    margin-left: 100px;
+    margin-top: 270px;
+    
+}
+.rvw1 p{
+    font-size: 13px;
+}
+
+.tempo{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.img2{
+    margin-left: -580px;
+    margin-top: 40px;
+    position: absolute;
+    border-radius: 20px;
+    
+
+}
+.shadowimg2{
+    margin-left: 100px;
+}
+
+.rvw2{
+    width: 40%;
+    margin-left: 100px;
+    margin-top: 270px;
+    
+}
+.rvw2 p{
+    font-size: 13px;
+}
+
+
+
+.cmore {
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    align-content: center;
+    text-align: center;
+    
+}
+
+.btn7{
+    color: white;
+    background-color:rgba(30, 86, 49, 1) ;
+    border-color: rgba(30, 86, 49, 1);
+    border-radius: 10px;
+    height: 50px;
+    width: 160px;
+    margin-top: 40px;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+}
+
+
+.faqs{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    /* font-size: 12px; */
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+
+.beforefooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: rgba(30, 86, 49, 1);
+    margin-top: 50px;
+    border-radius: 11px;
+    color: white;
+    height: 96px;
+    text-align: left;
+    padding: 24px 40px;
+
+}
+
+
+.footer{
+    height: 480px;
+    color: white;
+    background-color:rgba(30, 86, 49, 1) ;
+    position: absolute;
+    margin-top: 50px;
+    
+}
